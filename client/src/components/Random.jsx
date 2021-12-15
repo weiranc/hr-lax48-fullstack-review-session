@@ -25,8 +25,8 @@ export default class Random extends React.Component {
       <div>
         <button>Randomize</button>
         <div>
-          <img src='https://ca.slack-edge.com/T2SV1LBC6-U01PV3GJLTY-166182619cff-512'></img>
-          <h1>Bernardy. Ben Bernardy.</h1>
+          <img src='https://ca.slack-edge.com/T2SV1LBC6-U0254P5HBLY-b01374551470-512'></img>
+          <h1>Bernardy...Ben Bernardy.</h1>
         </div>
       </div>
     )
