@@ -28,22 +28,22 @@ export default class App extends React.Component {
     if (this.state.page === 'add'){
       return (
         <div>
-          <Add />
           <button value='home'>Back</button>
+          <Add />
         </div>
       )
     } else if (this.state.page === 'list'){
       return (
         <div>
-          <List />
           <button value='home'>Back</button>
+          <List />
         </div>
       )
     } else if (this.state.page === 'random'){
       return (
         <div>
-          <Random />
           <button value='home'>Back</button>
+          <Random />
         </div>
       )
     } else {

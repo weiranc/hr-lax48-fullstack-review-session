@@ -23,11 +23,11 @@ export default class Random extends React.Component {
   render() {
     return (
       <div>
+        <button>Randomize</button>
         <div>
           <img src='https://ca.slack-edge.com/T2SV1LBC6-U01PV3GJLTY-166182619cff-512'></img>
-          <h1>Michael</h1>
+          <h1>Bernardy. Ben Bernardy.</h1>
         </div>
-        <button>Randomize</button>
       </div>
     )
   }
