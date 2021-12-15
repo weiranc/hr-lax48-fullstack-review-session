@@ -1,0 +1,37 @@
+html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-image: linear-gradient(to left bottom, #70b579, #46b898, #00b9b7, #00b7d2, #41b2e3, #4fb6ea, #5cbbf1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#app {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin: 1rem 0.25rem 1rem 0.25rem;
+  border-radius: 1rem;
+  border: 0;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(206, 226, 244);
+}
+
+input {
+  margin: 0 0.5rem 0 0.5rem;
+}

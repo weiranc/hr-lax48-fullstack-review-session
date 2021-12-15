@@ -1,0 +1,28 @@
+{
+  "name": "hr-lax48-review-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js",
+    "seedDB": "node db/seed.js"
+  },
+  "keywords": [],
+  "author": "JkHz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.9.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
