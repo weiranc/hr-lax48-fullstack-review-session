@@ -3,7 +3,7 @@ const db = require('./index.js');
 mongoose.Promise = global.Promise;
 
 const studentSchema = new mongoose.Schema({
-  name: String,
+  name: {type: String, unique: true},
   imageUrl: String,
 });
 

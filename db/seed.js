@@ -1,4 +1,3 @@
-const db  = require('./index.js');
 const Student = require('./Student.js');
 const mongoose = require('mongoose');
 
@@ -46,8 +45,9 @@ const sampleData = [
 ];
 
 const insertSampleData = function() {
-  Student.create(sampleData)
-    .then(() => mongoose.connection.close());
+  Student.insertMany(sampleData)
+    .catch(err => console.log(`Error inserting data: ${err}`))
+    .then(() => mongoose.connection.close())
 };
 
 insertSampleData();
