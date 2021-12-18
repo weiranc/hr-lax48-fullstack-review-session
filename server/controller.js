@@ -15,7 +15,13 @@ const controller = {
     },
     postStudent: function (req, res) {
       // TODO: add your code here to add a new student
-
+      Student.create({name: req.body.name, imageUrl: req.body.imgurl})
+        .then(response => {
+          res.status(201).send(response);
+        })
+        .catch(err => {
+          console.error(err);
+        })
     },
     updateName: function (req, res) {
       // TODO: add your code here to update a student's name
