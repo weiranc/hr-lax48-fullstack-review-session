@@ -19,7 +19,13 @@ const controller = {
     },
     updateName: function (req, res) {
       // TODO: add your code here to update a student's name
-
+      Student.findOneAndUpdate({_id: req.params.id}, {name: req.body.name})
+        .then(response => {
+          res.status(200).send(response);
+        })
+        .catch(err => {
+          console.error(err);
+        })
     }
   }
 };
